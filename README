@@ -1,3 +1,6 @@
 AppEngine Mail Processor is an application developed for Google's AppEngine platform to automatically process and perform specific tasks on mails.
 
 Tired of clicking a link to confirm an account? Don't want to open and do always the same with some mails? Develop the Action to execute to process them and create a filter in your email account to forward some messages to the application. Next time you will just see the report mail for your Action and know it was already processed!
+
+An example Action is provided (ClickLinksAction). It will click all links found in the mail and return the contents in the reply message.
+Note: It's possible that this Action clicks unwanted links like unsubscribe links!
